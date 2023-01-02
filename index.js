@@ -5,6 +5,8 @@ const helmet = require('helmet')
 const cors = require('cors')
 const xss = require('xss-clean')
 const rateLimiter = require('express-rate-limit')
+const mongoose = require("mongoose")
+mongoose.set('strictQuery', true)
 
 const express = require('express');
 const app = express();
