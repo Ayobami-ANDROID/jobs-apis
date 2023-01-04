@@ -144,5 +144,5 @@ const showStats = async (req, res) => {
     res.status(StatusCodes.OK).json({ defaultStats, monthlyApplications });
   };
 module.exports ={
-    getAllJobs,getJob,createJob,updateJob,deleteJob
+    getAllJobs,getJob,createJob,updateJob,deleteJob,showStats
 }
